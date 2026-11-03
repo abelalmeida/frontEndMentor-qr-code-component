@@ -9,7 +9,7 @@ body {
   background-color: #d6e2f0;
 }
 
-#qr-container {
+.qr-container {
   width: 350px;
   height: 520px;
   background-color: #fff;
@@ -36,10 +36,10 @@ h2 {
 }
 
 p {
-  front-size: 15px;
+  font-size: 15px;
   text-align: center;
   color: #68778d;
-  padding: 1rem 1.5;
+  padding: 1rem 1.5rem;
 }
 
 /*
@@ -49,7 +49,6 @@ mobile
 @media screen and (max-width: 480px) {
   #qr-container {
     width: 90%;
-
   }
 }
 
